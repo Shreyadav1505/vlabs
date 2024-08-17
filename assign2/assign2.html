@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+    <form action="/submit_registration" method="POST">
+
+        <label for="name">Enter name</label>
+        <input type="text" id="name">
+        <br>
+        <br>
+
+        <label for="email">Enter email</label>
+        <input type="email" id="email">
+        <br><br>
+        
+        <label for="password">Enter password</label>
+        <input type="password" id="password">
+        <br><br>
+
+        <label for="dob">Enter date of birth</label>
+        <input type="date" id="dob">
+        <br><br>
+
+        <label>Enter gender</label>
+        <input type="radio" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" value="other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <label>Select mode of transport</label>
+        <input type="checkbox" id="op1" value="Bike">
+        <label for="op1">Bike</label>
+        <input type="checkbox" id="op2" value="Scooty">
+        <label for="op2">Scooty</label>
+        <input type="checkbox" id="op3" value="Car">
+        <label for="op3">Car</label>
+        <input type="checkbox" id="op4" value="Cycle">
+        <label for="op3">Car</label>
+        <br><br>
+
+        <label for="country">Choose year</label>
+        <select id="country">
+            <option value="">Select your year</option>
+            <option value="FE">first year</option>
+            <option value="SE">second year</option>
+            <option value="TE">third year</option>
+            <option value="BE">forth year</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
